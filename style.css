@@ -644,6 +644,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
 }
 
 .form-logo {
@@ -651,7 +652,7 @@ footer {
 }
 
 .form-desc h1 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding: 1.2rem 0;
 }
 
@@ -690,8 +691,12 @@ footer {
     padding: 0 .5rem;
 }
 
+.terms p {
+    font-size: .9rem;
+}
+
 .terms p input {
-    margin-right: 1rem;
+    margin-right: .5rem;
     width: 15px;
     height: 15px;
 }
@@ -746,12 +751,22 @@ footer {
     .templates-container {
         background-color: var(--purple);
         display: flex;
-        padding: 3rem 2rem;
+        padding: 0rem 3rem;
         margin-top: 2rem;
     }
 
-    .form-img img {
+    .templates {
         padding: 2rem;
+    }
+
+    .form-desc {
+        flex: 1;
+        margin-right: 3rem;
+        padding: 0 1.5rem;
+    }
+
+    .templates-container {
+        flex: 1;
     }
 
     .templates-text h2 {
@@ -764,7 +779,6 @@ footer {
     .templates-text p {
         color: var(--white);
         text-align: center;
-        padding: 0 3.8rem;
     }
 
     .dots {
@@ -787,19 +801,18 @@ footer {
     }
 }
 
-@media only screen and (min-width: 770px) {
-    .templates-container {
-        margin-top: 0;
-        padding: 2rem ;
-    }
+@media only screen and (min-width: 920px) {
     .form-desc {
         flex: 1;
+        max-width: 550px;
         margin-right: 3rem;
-        padding: 0 3rem;
+        padding: 0 6rem;
     }
 
     .templates-container {
         flex: 1;
+        max-width: 600px;
+        margin-top: 0;
     }
     
 }
