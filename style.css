@@ -323,12 +323,12 @@ header {
 
 
 /* main section */
-.potfolio-container {
+.portfolio-container {
     padding: 0 2rem;
     margin-top: 3rem;
 }
 
-.potfolio-desc span {
+.portfolio-desc span {
     color: var(--purple);
     font-weight: 600;
 }
@@ -570,11 +570,11 @@ footer {
     width: 500px;
     }
 
-    .potfolio-container {
+    .portfolio-container {
     padding: 0 4.5rem;
     }
     
-    .potfolio-container h2 {
+    .portfolio-container h2 {
         max-width: 400px;
     }
 
