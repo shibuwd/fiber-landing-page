@@ -87,7 +87,6 @@ p {
     border-radius: .4rem;
     border: 2px solid var(--purple);
     transition: 0.6s cubic-bezier(0.37, 0, 0.63, 1);
-    /* transition: .6s cubic-bezier(0.45, 0, 0.55, 1); */
 }
 
 ul>li>a:before,
@@ -365,7 +364,6 @@ header {
 .experience-btn {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     margin: 1rem 0;
 }
 
@@ -432,6 +430,8 @@ header {
 .feedback-text p {
     color: var(--dark);
     margin-bottom: 1.5rem;
+    max-width: 350px;
+    height: 150px;
 }
 
 .feedback-btn {
@@ -738,9 +738,10 @@ footer {
 .templates-container {
     display: none;
 }
-
 /*end form section */
 
+
+/* media query for form section */
 @media only screen and (min-width: 768px) {
     .templates-container {
         background-color: var(--purple);
@@ -802,3 +803,4 @@ footer {
     }
     
 }
+/* end media query for form section */
