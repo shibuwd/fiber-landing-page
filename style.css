@@ -429,7 +429,7 @@ header {
 
 .feedback-text p {
     color: var(--dark);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.2rem;
     max-width: 350px;
     height: 150px;
 }
@@ -549,8 +549,7 @@ footer {
     }
 
     .hero-desc h1 {
-    max-width: 550px;
-    font-size: 3.4rem;
+    max-width: 450px;
     }
 
    .hero-btn {
@@ -575,7 +574,7 @@ footer {
     }
     
     .portfolio-container h2 {
-        max-width: 400px;
+        max-width: 450px;
     }
 
     .services {
